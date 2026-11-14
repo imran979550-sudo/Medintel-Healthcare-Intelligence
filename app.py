@@ -565,8 +565,8 @@ with r2_c2:
     </div>
     """, unsafe_allow_html=True)
 
-    # Notebook Cell 52: px.scatter_mapbox
-    fig_map = px.scatter_mapbox(
+    # Notebook Cell 52: px.scatter_map
+    fig_map = px.scatter_map(
         patients.dropna(subset=['LAT', 'LON']),
         lat='LAT',
         lon='LON',
